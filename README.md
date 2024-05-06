@@ -34,3 +34,7 @@ Ce projet est une simple application de liste de tâches (todo list) développé
 2. Assurez-vous d'avoir Node.js et npm installés.
 3. Exécutez `npm install` pour installer les dépendances.
 4. Exécutez `npm run dev` pour démarrer le serveur de développement.
+
+## Déploiement
+
+Le projet est déployé à l'adresse suivante : [Todo List - Démo](https://thetodolist-theo.netlify.app/)
