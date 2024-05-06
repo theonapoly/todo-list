@@ -9,9 +9,13 @@ function TaskList() {
 
   return (
     <div className="list-main-container">
-      {tasks.map((el) => {
-        return <TaskItem task={el} key={el.id} />;
-      })}
+      {tasks.length > 0 ? (
+        tasks.map((el) => {
+          return <TaskItem task={el} key={el.id} />;
+        })
+      ) : (
+        <h1>Vous n'avez aucune tâche pour le moment</h1>
+      )}
     </div>
   );
 }

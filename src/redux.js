@@ -12,7 +12,7 @@ const todoSlice = createSlice({
       // state = état
       // action = {type: "todo/addTask", payload: "Aller faire les courses"}
       const newTask = {
-        id: state[state.length - 1].id + 1,
+        id: Date.now(),
         text: action.payload,
         done: false,
       };
